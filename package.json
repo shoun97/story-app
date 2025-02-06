@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
-    "build": "storybook build"
+    "build": "tsc -b && vite build && storybook build"
   },
   "dependencies": {
     "react": "^19.0.0",
